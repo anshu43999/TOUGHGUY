@@ -1,0 +1,164 @@
+/*底部含地图*/
+/*rem样式*/
+ div.footerwrap{
+     height:3rem;
+     width:100%;
+     background-color: #444444;
+}
+ div.footer{
+     height:3rem;
+     width:12rem;
+     margin:0 auto;
+     padding-top:0.2rem;
+}
+ #map{
+     width:6.6rem;
+     height:2.6rem;
+     float:left;
+     background:rgb(255,255,255);
+     margin:0 0.5rem;
+}
+ div.scan_code{
+     margin-top:0.66rem;
+     width:1.26rem;
+     height:1.26rem;
+     float:left;
+     margin-right:0.3rem;
+}
+ div.scan_code img{
+ 	display: block;
+     width:1.26rem;
+     height:1.26rem;
+}
+ ul.infor{
+     margin-top:0.66rem;
+     height:1.26rem;
+     float:left;
+}
+ ul.infor li{
+     line-height:0.43rem;
+     color: #ffffff;
+}
+ ul.infor li i{
+     line-height:0.43rem;
+     color: #ffffff;
+}
+ ul.infor li p{
+     font-size:0.16rem;
+     color: #ffffff;
+}
+ ul.infor li p span{
+     color: #ffffff;
+     font-size:0.16rem;
+}
+
+ .info-title {
+     color: white;
+     font-size: 14px;
+     background-color:#eee;
+     line-height: 26px;
+     padding: 0rem 0 0 6px;
+     font-weight: lighter;
+     letter-spacing: 1px; 
+}
+ .info-title img{
+     height:100%;
+     width:auto;
+}
+ .info-content {
+     font: 12px Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial;
+     padding: 4px;
+     color: #666666;
+     line-height: 23px;
+}
+ .info-content img {
+     float: left;
+     margin: 3px;
+}
+.amap-copyright{
+	display: none!important;
+}
+/*.amap-adcontent-body{
+	transform: scale(0.8,0.8);
+    transform-origin: center bottom;
+}*/
+/*px的样式*/
+/*div.footerwrap{
+	height:300px;
+	width:100%;
+	background-color: #444444;
+}
+div.footer{
+	height:300px;
+	width:1200px;
+	margin:0 auto;
+	padding-top:50px;
+}
+#map{
+	width:660px;
+	height:200px;
+	float:left;
+	background:rgb(255,255,255);
+	margin:0 50px;
+}
+div.scan_code{
+	margin-top:36px;
+	width:126px;
+	height:126px;
+	float:left;
+	margin-right:30px;
+}
+div.scan_code img{
+	display: block;
+	width:126px;
+	height:126px;
+}
+ul.infor{
+	margin-top:36px;
+	height:126px;
+	float:left;
+}
+ul.infor li{
+	line-height:43px;
+	color: #ffffff;
+}
+ul.infor li i{
+	line-height:43px;
+	color: #ffffff;
+}
+ul.infor li p{
+	font-size:16px;
+	color: #ffffff;
+}
+ul.infor li p span{
+	color: #ffffff;
+	font-size:16px;
+}*/
+/*地图*/
+/*.info-title {
+    color: white;
+    font-size: 14px;
+    background-color:#eee;
+    line-height: 26px;
+    padding: 0px 0 0 6px;
+    font-weight: lighter;
+    letter-spacing: 1px
+}
+.info-title img{
+    height:100%;
+    width:auto;
+}
+.info-content {
+    font: 12px Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial;
+    padding: 4px;
+    color: #666666;
+    line-height: 23px;
+}
+.info-content img {
+    float: left;
+    margin: 3px;
+}*/
+/*关闭小按钮*/
+/*.amap-adcombo-close{
+
+}*/

@@ -1,0 +1,62 @@
+@charset "UTF-8";
+body, ol, ul, li, dl, h1, h2, h3, h4, h5, h6, p, input, textarea, a ,img{
+  margin: 0;
+  padding: 0;
+  font-weight:normal;
+  list-style: none;
+  font-family: "微软雅黑";
+  text-decoration: none;
+  /*font-size: 0.14rem;*/ 
+}
+
+/*input {
+  border: none; }
+*/
+a:hover, a:focus,a:active, a:visited{
+	text-decoration: none;
+}
+img {
+  border: none;
+  }
+
+html {
+  min-height: 100%;
+}
+body{
+  min-height: 100%;
+}
+
+* {
+  box-sizing: border-box; 
+}
+
+.oth{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+a {
+  color: inherit; }
+  label{
+  	font-weight:normal;
+  }
+
+html{
+	font-size:100px;
+}
+
+@media screen and (max-width:1367px){
+	html{
+		font-size:71.1458px;
+	}
+}
+@media screen and (min-width:1367px) and (max-width:1800px){
+	html{
+		font-size:82.4479px;
+	}
+}
+@media screen and (min-width: 1800px) and (max-width: 1920px) {
+	html{
+		font-size:100px;
+	}
+}
