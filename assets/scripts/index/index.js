@@ -36,5 +36,4 @@ $(function(){
 	  		$('.navwrap').removeClass('bgnav');
 	  	}
 	});
-	console.log(swiper1)
 })

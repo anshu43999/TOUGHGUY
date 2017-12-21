@@ -1,0 +1,106 @@
+div.paginationwrap{
+	text-align: center;
+}
+div.pagination{
+	overflow: hidden;
+	display: inline-block;
+}
+div.pagination a.pre{
+	float:left;
+	height:0.27rem;
+	width:0.32rem;
+	border-radius: 0.04rem;
+	margin-right:0.08rem;
+	background-color:rgb(55,141,248);
+	background-image:url(../../images/common/pagination-pre.png);
+	background-repeat:  no-repeat;
+	background-position:  center;
+	background-size:cover;
+}
+div.pagination a.page{
+	float:left;
+	height:0.27rem;
+	width:0.32rem;
+	/*background:rgb(255,255,255);*/
+	border:0.01rem solid rgb(220,220,220);
+	line-height: 0.27rem;
+	text-align: center;
+	font-size: 0.12rem;
+	color:rgb(0,0,0);
+	border-radius: 0.02rem;
+	margin-right:0.1rem;
+}
+div.pagination a.page:hover{
+	border-color:rgb(55,141,248);
+}
+div.pagination a:hover{
+	text-decoration: none;
+}
+div.pagination a.active{
+	background:rgb(55,141,248);
+	color:rgb(255,255,255);
+	border-color:rgb(55,141,248);
+}
+div.pagination a.shot{
+	float:left;
+	height:0.27rem;
+	width:0.22rem;
+	/*background:rgb(255,255,255);*/
+	line-height: 0.27rem;
+	text-align: center;
+	margin-right:0.08rem;
+	text-align: center;
+	font-size: 0.12rem;
+	color:rgb(0,0,0);
+	font-size: 0.14rem;
+}
+div.pagination a.next{
+	float:left;
+	height:0.27rem;
+	width:0.27rem;
+	border-radius: 0.04rem;
+	background:rgb(55,141,248);
+	margin-left:-0.02rem;
+	margin-right:0.25rem;
+	background-color:rgb(55,141,248);
+	background-image:url(../../images/common/pagination-next.png);
+	background-repeat:  no-repeat;
+	background-position:  center;
+	background-size:cover;
+}
+div.pagination span{
+	float:left;
+	margin-left:0.05rem;
+	text-align: center;
+	font-size: 0.12rem;
+	color:rgb(0,0,0);
+	height:0.27rem;
+	line-height: 0.27rem;
+}
+div.pagination input{
+	float:left;
+	height:0.27rem;
+	width:0.27rem;
+	border-radius: 0.04rem;
+	background:rgba(255,255,255,0);
+	border:0.01rem solid rgb(236,210,200);
+	margin-left:0.08rem;
+	text-align: center;
+	font-size: 0.12rem;
+	color:rgb(0,0,0);
+}
+div.pagination button.search{
+	float:left;
+	height:0.27rem;
+	line-height: 0.228rem;
+	text-align: center;
+	width:0.27rem;
+	border-radius: 0.04rem;
+	background:rgb(55,141,248);
+	margin-left:0.1rem;
+	font-size: 0.14rem;
+	color:rgb(255,255,255);
+	border:none;
+	outline: none;
+	padding:0;
+}

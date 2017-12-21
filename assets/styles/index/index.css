@@ -36,14 +36,16 @@
 .swiper-container1 >.swiper-pagination > span.swiper-pagination-bullet-active {
     background:#1584dc;
 }
+
 .numbers{
-	width:1200px;
-	height:177px;
-	margin:0 auto;
+     width:100%;
+     height:177px;
+     background-color: #f7f7f7;
 }
 .numbers ul{
-	width:100%;
-	height:100%;
+     width:1200px;
+     margin:0 auto;
+     height:100%;
 }
 .numbers ul li{
 	float:left;
@@ -51,6 +53,7 @@
 	height:100%;
 	text-align:center;
 	padding-top:50px;
+	font-size:48px;
 }
 .numbers ul li h3{
 	display: inline;

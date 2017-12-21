@@ -1,50 +1,66 @@
 @charset "UTF-8";
-body, ol, ul, li, dl, h1, h2, h3, h4, h5, h6, p, input, textarea, a ,img{
+body, ol, ul, li, dl, h1, h2, h3, h4, h5, h6, p, input, textarea, a {
   margin: 0;
   padding: 0;
-  font-weight:normal;
   list-style: none;
   font-family: "微软雅黑";
   text-decoration: none;
-  /*font-size: 0.14rem;*/ 
-}
+  font-size: 0.18rem;
+  font-weight: normal; }
 
-/*input {
+input {
   border: none; }
-*/
-a:hover, a:focus,a:active, a:visited{
-	text-decoration: none;
-}
+
 img {
   border: none;
-  }
+  margin: 0; }
+
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 41.66667px; } }
+
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 100px; } }
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 53.33333px; } }
+
+@media screen and (min-width: 1080px) {
+  html {
+    font-size: 56.25px; } }
+
+@media screen and (min-width: 1280px) {
+  html {
+    font-size: 66.66667px; } }
+
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 100px; } }
+
+@media screen and (min-width: 2400px) {
+  html {
+    font-size: 125px; } }
 
 html {
-  min-height: 100%;
-}
-body{
-  min-height: 100%;
-}
+  overflow-y: scroll; }
 
 * {
-  box-sizing: border-box; 
-}
+  box-sizing: border-box; }
 
-.oth{
+p {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap; }
 
 a {
-  color: inherit; }
-  label{
-  	font-weight:normal;
-  }
-
-html{
-	font-size:100px;
+  color: inherit;
+  text-decoration: none; }
+/*补充*/  
+html {
+  min-height: 100%;
 }
-
 @media screen and (max-width:1367px){
 	html{
 		font-size:71.1458px;
@@ -59,4 +75,9 @@ html{
 	html{
 		font-size:100px;
 	}
+}
+.clear{
+	width:0;
+	height:0;
+	clear:both;
 }
