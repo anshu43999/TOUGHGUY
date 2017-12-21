@@ -1,0 +1,105 @@
+.serve_con_right_content {
+  padding-top: 0.35rem; }
+  .serve_con_right_content .serve_common_title_common {
+    margin-top: 0.9rem; }
+    .serve_con_right_content .serve_common_title_common.margin_none {
+      margin: 0; }
+    .serve_con_right_content .serve_common_title_common .serve_common_title {
+      width: 100%;
+      height: 0.53rem;
+      margin-bottom: 0.42rem; }
+      .serve_con_right_content .serve_common_title_common .serve_common_title img {
+        display: block;
+        margin: 0 auto;
+        width: 3.23rem;
+        height: 100%; }
+  .serve_con_right_content .serve_con_right_con_type {
+    width: 100%;
+    height: 3rem;
+    overflow: hidden; }
+    .serve_con_right_content .serve_con_right_con_type .classify_only {
+      padding-left: 0.5rem;
+      padding-right: 0.3rem;
+      font-size: 0; }
+      .serve_con_right_content .serve_con_right_con_type .classify_only li {
+        width: 0.41rem;
+        height: 0.8rem;
+        text-align: center;
+        display: inline-block;
+        margin-left: 1.08rem;
+        margin-bottom: 0.4rem; }
+        .serve_con_right_content .serve_con_right_con_type .classify_only li.width_an p {
+          margin-left: -0.1rem; }
+        .serve_con_right_content .serve_con_right_con_type .classify_only li.yellow {
+          color: #f0dd4d; }
+        .serve_con_right_content .serve_con_right_con_type .classify_only li.green_black {
+          color: #98ac54; }
+        .serve_con_right_content .serve_con_right_con_type .classify_only li.green_op {
+          color: #c4d567; }
+        .serve_con_right_content .serve_con_right_con_type .classify_only li.pink_op {
+          color: #e9cbcc; }
+        .serve_con_right_content .serve_con_right_con_type .classify_only li.purple {
+          color: #a55d9d; }
+        .serve_con_right_content .serve_con_right_con_type .classify_only li.orgin {
+          color: #e6b15e; }
+        .serve_con_right_content .serve_con_right_con_type .classify_only li.bule {
+          color: #8ee2df; }
+        .serve_con_right_content .serve_con_right_con_type .classify_only li.bule_black {
+          color: #5e8c7d; }
+        .serve_con_right_content .serve_con_right_con_type .classify_only li.pink {
+          color: #ff99b6; }
+        .serve_con_right_content .serve_con_right_con_type .classify_only li.purple_op {
+          color: #f5c3c1; }
+        .serve_con_right_content .serve_con_right_con_type .classify_only li.none_margin {
+          margin: 0; }
+        .serve_con_right_content .serve_con_right_con_type .classify_only li i {
+          display: inline-block;
+          width: 100%;
+          height: 0.4rem;
+          font-size: 0.4rem;
+          color: inherit; }
+        .serve_con_right_content .serve_con_right_con_type .classify_only li p {
+          color: inherit;
+          margin-top: 0.05rem;
+          font-size: 0.2rem;
+          overflow: visible; }
+  .serve_con_right_content .serve_con_right_con_made .serve_con_made_title img {
+    width: 2.83rem; }
+  .serve_con_right_content .serve_con_right_con_made .module_only {
+    width: 100%;
+    font-size: 0;
+    padding-left: 0.3rem; }
+    .serve_con_right_content .serve_con_right_con_made .module_only li {
+      width: 0.58rem;
+      margin-bottom: 0.3rem;
+      height: 0.98rem;
+      border: 1px solid white;
+      display: inline-block;
+      background-color: transparent;
+      text-align: center;
+      margin-left: 0.65rem;
+      color: white; }
+      .serve_con_right_content .serve_con_right_con_made .module_only li:hover i {
+        border-color: #298fdf;
+        color: #298fdf; }
+      .serve_con_right_content .serve_con_right_con_made .module_only li.margin_none {
+        margin: 0; }
+      .serve_con_right_content .serve_con_right_con_made .module_only li i {
+        display: inline-block;
+        width: 0.58rem;
+        height: 0.58rem;
+        line-height: 0.58rem;
+        border-radius: 50%;
+        border: 1px solid #d9d9d9;
+        color: #333333;
+        font-size: 0.3rem; }
+      .serve_con_right_content .serve_con_right_con_made .module_only li p {
+        color: #333333;
+        margin-top: 0.2rem;
+        overflow: visible;
+        font-size: 0.18rem;
+        user-select: none; }
+        .serve_con_right_content .serve_con_right_con_made .module_only li p.margin {
+          margin-left: -0.1rem; }
+  .serve_con_right_content .serve_con_right_con_merit .serve_con_merit_title img {
+    width: 2.83rem; }
