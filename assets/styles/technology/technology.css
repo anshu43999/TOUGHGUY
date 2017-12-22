@@ -103,3 +103,370 @@
           margin-left: -0.1rem; }
   .serve_con_right_content .serve_con_right_con_merit .serve_con_merit_title img {
     width: 2.83rem; }
+  .serve_con_right_content .serve_con_right_con_merit .merit_only {
+    width: 100%;
+    height: 1.3rem;
+    font-size: 0;
+    padding-left: 0.25rem; }
+    .serve_con_right_content .serve_con_right_con_merit .merit_only li {
+      width: 1.28rem;
+      height: 100%;
+      text-align: center;
+      margin-left: 1.54rem;
+      display: inline-block; }
+      .serve_con_right_content .serve_con_right_con_merit .merit_only li.margin {
+        margin: 0; }
+      .serve_con_right_content .serve_con_right_con_merit .merit_only li:hover p {
+        display: none; }
+      .serve_con_right_content .serve_con_right_con_merit .merit_only li:hover .merit_font {
+        display: block; }
+      .serve_con_right_content .serve_con_right_con_merit .merit_only li img {
+        width: 0.69rem;
+        height: 0.69rem; }
+      .serve_con_right_content .serve_con_right_con_merit .merit_only li p {
+        font-size: 0.18rem;
+        color: #333333;
+        height: 0.62rem;
+        line-height: 0.8rem; }
+      .serve_con_right_content .serve_con_right_con_merit .merit_only li .merit_font {
+        display: none;
+        height: 0.62rem;
+        padding-top: 0.3rem; }
+        .serve_con_right_content .serve_con_right_con_merit .merit_only li .merit_font p {
+          line-height: 1;
+          display: block;
+          height: auto;
+          margin-top: 0;
+          font-size: 0.16rem;
+          color: #7b7b7b; }
+  .serve_con_right_content .serve_con_right_con_satisfy .serve_con_satisfy_title img {
+    width: 2.17rem; }
+  .serve_con_right_content .serve_con_right_con_satisfy .satis_only {
+    width: 100%;
+    padding-left: 0.9rem;
+    font-size: 0; }
+    .serve_con_right_content .serve_con_right_con_satisfy .satis_only li {
+      width: 2.2rem;
+      height: 100%;
+      margin-left: 1.15rem;
+      display: inline-block;
+      margin-bottom: 0.4rem;
+      text-align: center; }
+      .serve_con_right_content .serve_con_right_con_satisfy .satis_only li.margin_none {
+        margin: 0; }
+      .serve_con_right_content .serve_con_right_con_satisfy .satis_only li .satis_content {
+        width: 100%;
+        height: 100%; }
+        .serve_con_right_content .serve_con_right_con_satisfy .satis_only li .satis_content img {
+          width: 100%; }
+        .serve_con_right_content .serve_con_right_con_satisfy .satis_only li .satis_content .satis_font {
+          margin-top: 0.38rem;
+          font-size: 0.16rem;
+          color: rgba(1, 1, 1, 0.7);
+          display: block; }
+          .serve_con_right_content .serve_con_right_con_satisfy .satis_only li .satis_content .satis_font span {
+            display: block;
+            margin-top: 0.1rem; }
+        .serve_con_right_content .serve_con_right_con_satisfy .satis_only li .satis_content .xian {
+          width: 0.32rem;
+          height: 0.02rem;
+          background-color: rgba(8, 8, 8, 0.4);
+          display: block;
+          margin: 0 auto;
+          margin-top: 0.2rem; }
+  .serve_con_right_content .serve_con_right_con_effect .serve_con_effect_title img {
+    width: 3.23rem; }
+  .serve_con_right_content .serve_con_right_con_effect .effect_only {
+    width: 100%;
+    padding-left: 0.94rem; }
+    .serve_con_right_content .serve_con_right_con_effect .effect_only li {
+      width: 1rem;
+      height: 0.96rem;
+      margin-left: 1.3rem;
+      text-align: center;
+      display: inline-block; }
+      .serve_con_right_content .serve_con_right_con_effect .effect_only li.margin {
+        margin: 0; }
+      .serve_con_right_content .serve_con_right_con_effect .effect_only li img {
+        height: 0.54rem; }
+      .serve_con_right_content .serve_con_right_con_effect .effect_only li p {
+        margin-top: 0.3rem;
+        font-size: 0.16rem;
+        color: #666666; }
+  .serve_con_right_content .serve_con_right_con_depth .serve_con_depth_title img {
+    width: 2.83rem; }
+  .serve_con_right_content .serve_con_right_con_depth .depth_only {
+    font-size: 0; }
+    .serve_con_right_content .serve_con_right_con_depth .depth_only li {
+      width: 1.7rem;
+      height: 1.45rem;
+      display: inline-block;
+      border: 1px solid #f5f5f5;
+      overflow: hidden;
+      margin-left: 0.18rem; }
+      .serve_con_right_content .serve_con_right_con_depth .depth_only li.margin {
+        margin: 0; }
+      .serve_con_right_content .serve_con_right_con_depth .depth_only li:hover {
+        box-shadow: 0 0 2px rgba(80, 80, 80, 0.2);
+        padding: 0.2rem 0.1rem 0 0.14rem; }
+        .serve_con_right_content .serve_con_right_con_depth .depth_only li:hover .depth_title {
+          display: none; }
+        .serve_con_right_content .serve_con_right_con_depth .depth_only li:hover .depth_content {
+          display: inline-block; }
+      .serve_con_right_content .serve_con_right_con_depth .depth_only li .depth_content {
+        display: none;
+        width: 100%;
+        height: 100%; }
+        .serve_con_right_content .serve_con_right_con_depth .depth_only li .depth_content p {
+          white-space: normal;
+          font-size: 0.14rem;
+          color: #333333; }
+      .serve_con_right_content .serve_con_right_con_depth .depth_only li .depth_title {
+        text-align: right;
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: 20% 70%;
+        width: 100%;
+        padding-right: 0.2rem;
+        height: 100%;
+        padding-top: 0.6rem;
+        padding-bottom: 0.2rem; }
+        .serve_con_right_content .serve_con_right_con_depth .depth_only li .depth_title p {
+          margin-bottom: 0.2rem;
+          font-size: 0.24rem;
+          color: #000000; }
+        .serve_con_right_content .serve_con_right_con_depth .depth_only li .depth_title span {
+          font-size: 0.14rem;
+          color: #999999; }
+        .serve_con_right_content .serve_con_right_con_depth .depth_only li .depth_title.one {
+          background-image: url(../../images/technology/01.png); }
+        .serve_con_right_content .serve_con_right_con_depth .depth_only li .depth_title.two {
+          background-image: url(../../images/technology/02.png); }
+        .serve_con_right_content .serve_con_right_con_depth .depth_only li .depth_title.three {
+          background-image: url(../../images/technology/03.png); }
+        .serve_con_right_content .serve_con_right_con_depth .depth_only li .depth_title.five {
+          background-image: url(../../images/technology/04.png); }
+  .serve_con_right_content .serve_con_right_con_Intelligence .serve_con_Intelligence_title img {
+    width: 2.84rem; }
+  .serve_con_right_content .serve_con_right_con_Intelligence .Intelligence_only {
+    width: 100%;
+    height: auto;
+    font-size: 0;
+    padding-left: 0.33rem; }
+    .serve_con_right_content .serve_con_right_con_Intelligence .Intelligence_only li {
+      width: 1.08rem;
+      height: 1.5rem;
+      display: inline-block;
+      margin-left: 0.77rem;
+      text-align: center; }
+      .serve_con_right_content .serve_con_right_con_Intelligence .Intelligence_only li.margin {
+        margin: 0; }
+      .serve_con_right_content .serve_con_right_con_Intelligence .Intelligence_only li img {
+        width: 1.08rem;
+        height: 1.08rem;
+        margin-bottom: 0.23rem; }
+      .serve_con_right_content .serve_con_right_con_Intelligence .Intelligence_only li p {
+        font-size: 0.18rem;
+        color: #333333;
+        overflow: visible; }
+  .serve_con_right_content .serve_con_right_con_technology .serve_con_technology_title img {
+    width: 2.61rem; }
+  .serve_con_right_content .serve_con_right_con_technology .advantage_con_right {
+    padding-left: 0.55rem; }
+    .serve_con_right_content .serve_con_right_con_technology .advantage_con_right li {
+      width: 6.75rem;
+      border-right: 3px solid #ffffff;
+      background-color: white;
+      height: 2.10rem;
+      margin-bottom: 0.3rem;
+      font-size: 0;
+      padding: 0.28rem  0.4rem 0.32rem 0.5rem; }
+      .serve_con_right_content .serve_con_right_con_technology .advantage_con_right li:hover {
+        box-shadow: 0 0 10px rgba(37, 177, 241, 0.3);
+        border-right: 3px solid #01a4ef; }
+      .serve_con_right_content .serve_con_right_con_technology .advantage_con_right li img {
+        display: inline-block;
+        margin-top: 0.3rem; }
+        .serve_con_right_content .serve_con_right_con_technology .advantage_con_right li img.margin {
+          margin: 0; }
+      .serve_con_right_content .serve_con_right_con_technology .advantage_con_right li .con_right_font {
+        float: right;
+        width: 4.41rem;
+        height: 1.5rem; }
+        .serve_con_right_content .serve_con_right_con_technology .advantage_con_right li .con_right_font .con_right_font_title {
+          width: 100%;
+          height: 0.36rem;
+          margin-bottom: 0.1rem; }
+          .serve_con_right_content .serve_con_right_con_technology .advantage_con_right li .con_right_font .con_right_font_title img {
+            width: 0.3rem;
+            height: 0.3rem;
+            margin: 0; }
+          .serve_con_right_content .serve_con_right_con_technology .advantage_con_right li .con_right_font .con_right_font_title span {
+            vertical-align: top;
+            color: #000000;
+            font-size: 0.2rem; }
+        .serve_con_right_content .serve_con_right_con_technology .advantage_con_right li .con_right_font .xian {
+          width: 100%;
+          height: 1px;
+          background-color: #2590c7;
+          position: relative;
+          margin-bottom: 0.2rem; }
+          .serve_con_right_content .serve_con_right_con_technology .advantage_con_right li .con_right_font .xian p {
+            position: absolute;
+            width: 20%;
+            height: 3px;
+            top: -1px;
+            background-color: #2590c7; }
+        .serve_con_right_content .serve_con_right_con_technology .advantage_con_right li .con_right_font p {
+          font-size: 0.14rem;
+          -webkit-line-clamp: 3;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          line-height: 1.5;
+          color: #999999;
+          white-space: normal; }
+  .serve_con_right_content .serve_con_right_con_web .serve_con_web_title img {
+    width: 2.05rem;
+    height: 0.36rem; }
+  .serve_con_right_content .serve_con_right_con_web .pc_content_font {
+    font-size: 0;
+    padding-left: 0.5rem; }
+    .serve_con_right_content .serve_con_right_con_web .pc_content_font li {
+      width: 100%;
+      height: 1.17rem;
+      margin-bottom: 0.66rem;
+      font-size: 0; }
+      .serve_con_right_content .serve_con_right_con_web .pc_content_font li .pc_content_font_img {
+        width: 0.75rem;
+        height: 0.75rem;
+        display: inline-block; }
+        .serve_con_right_content .serve_con_right_con_web .pc_content_font li .pc_content_font_img img {
+          width: 100%;
+          height: 100%; }
+      .serve_con_right_content .serve_con_right_con_web .pc_content_font li .pc_content_font_font {
+        display: inline-block;
+        width: 5.4rem;
+        margin-left: 0.18rem;
+        vertical-align: top; }
+        .serve_con_right_content .serve_con_right_con_web .pc_content_font li .pc_content_font_font h5 {
+          font-size: 0.18rem;
+          color: #4192ed; }
+        .serve_con_right_content .serve_con_right_con_web .pc_content_font li .pc_content_font_font p {
+          font-size: 0.14rem;
+          color: #999999;
+          white-space: normal;
+          line-height: 1.7;
+          -webkit-line-clamp: 3; }
+  .serve_con_right_content .serve_con_right_con_app .serve_con_app_title img {
+    width: 2.57rem;
+    height: 0.37rem; }
+  .serve_con_right_content .serve_con_right_con_app .app_content_font {
+    padding-left: 0.5rem; }
+    .serve_con_right_content .serve_con_right_con_app .app_content_font li {
+      width: 100%;
+      height: 1.15rem;
+      margin-bottom: 0.55rem;
+      font-size: 0;
+      text-align: right; }
+      .serve_con_right_content .serve_con_right_con_app .app_content_font li .app_content_font_img {
+        width: 0.75rem;
+        height: 0.75rem;
+        float: left;
+        margin-left: 0.18rem;
+        display: inline-block; }
+        .serve_con_right_content .serve_con_right_con_app .app_content_font li .app_content_font_img img {
+          width: 100%;
+          height: 100%; }
+      .serve_con_right_content .serve_con_right_con_app .app_content_font li .app_content_font_font {
+        display: inline-block;
+        width: 5.63rem;
+        float: left; }
+        .serve_con_right_content .serve_con_right_con_app .app_content_font li .app_content_font_font h5 {
+          font-size: 0.18rem;
+          color: #4192ed; }
+        .serve_con_right_content .serve_con_right_con_app .app_content_font li .app_content_font_font p {
+          font-size: 0.14rem;
+          color: #999999;
+          white-space: normal;
+          margin-top: 0.01rem;
+          line-height: 1.5;
+          -webkit-line-clamp: 3; }
+  .serve_con_right_content .serve_con_right_con_backstage .serve_con_backstage_title img {
+    width: 2.57rem;
+    height: 0.57rem; }
+  .serve_con_right_content .serve_con_right_con_backstage .develop_img {
+    width: 100%;
+    margin-top: 0.3rem; }
+    .serve_con_right_content .serve_con_right_con_backstage .develop_img img {
+      width: 100%; }
+  .serve_con_right_content .serve_con_right_con_system .serve_con_system_title img {
+    width: 3.23rem; }
+  .serve_con_right_content .serve_con_right_con_system .system_list {
+    padding-left: 0.5rem; }
+    .serve_con_right_content .serve_con_right_con_system .system_list li {
+      width: 100%;
+      height: 1.1rem;
+      margin-bottom: 0.2rem; }
+      .serve_con_right_content .serve_con_right_con_system .system_list li img {
+        width: 0.4rem;
+        height: 0.4rem;
+        vertical-align: top; }
+      .serve_con_right_content .serve_con_right_con_system .system_list li .system_list_font {
+        margin-left: 0.05rem;
+        display: inline-block;
+        width: 5.76rem; }
+        .serve_con_right_content .serve_con_right_con_system .system_list li .system_list_font h5 {
+          font-size: 0.16rem;
+          color: #4192ed;
+          margin-bottom: 0.1rem; }
+          .serve_con_right_content .serve_con_right_con_system .system_list li .system_list_font h5.color {
+            color: #ffbb42; }
+        .serve_con_right_content .serve_con_right_con_system .system_list li .system_list_font p {
+          font-size: 0.14rem;
+          color: #999999;
+          -webkit-line-clamp: 3;
+          white-space: normal; }
+  .serve_con_right_content .serve_con_right_con_skill .serve_con_skill_title img {
+    width: 3.24rem; }
+  .serve_con_right_content .serve_con_right_con_skill .thinking_content {
+    font-size: 0; }
+    .serve_con_right_content .serve_con_right_con_skill .thinking_content li {
+      width: 3.68rem;
+      height: 0.7rem;
+      display: inline-block;
+      margin-bottom: 0.86rem;
+      font-size: 0; }
+      .serve_con_right_content .serve_con_right_con_skill .thinking_content li.margin_none {
+        margin: 0; }
+      .serve_con_right_content .serve_con_right_con_skill .thinking_content li .thinking_con_img {
+        width: 0.7rem;
+        height: 0.7rem;
+        display: inline-block;
+        background-color: rgba(65, 146, 237, 0.1);
+        text-align: center;
+        border-radius: 50%;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center; }
+        .serve_con_right_content .serve_con_right_con_skill .thinking_content li .thinking_con_img.first {
+          background-image: url(../../images/technology/backstage/16.png); }
+        .serve_con_right_content .serve_con_right_con_skill .thinking_content li .thinking_con_img.two {
+          background-image: url(../../images/technology/backstage/18.png); }
+        .serve_con_right_content .serve_con_right_con_skill .thinking_content li .thinking_con_img.three {
+          background-image: url(../../images/technology/backstage/17.png); }
+        .serve_con_right_content .serve_con_right_con_skill .thinking_content li .thinking_con_img.firs {
+          background-image: url(../../images/technology/backstage/19.png); }
+      .serve_con_right_content .serve_con_right_con_skill .thinking_content li .thinking_con_font {
+        width: 2.4rem;
+        height: 100%;
+        display: inline-block;
+        margin-left: 0.12rem; }
+        .serve_con_right_content .serve_con_right_con_skill .thinking_content li .thinking_con_font h5 {
+          font-size: 0.16rem;
+          color: #333333;
+          margin-bottom: 0.1rem; }
+        .serve_con_right_content .serve_con_right_con_skill .thinking_content li .thinking_con_font p {
+          font-size: 0.14rem;
+          color: #7b7b7b;
+          white-space: normal;
+          display: block; }
