@@ -1,0 +1,332 @@
+div.companyintro {}
+
+div.companyintro .introtitle {
+	text-align: center;
+	line-height: 0.7rem;
+}
+
+div.companyintro .introtitle img {
+	width: 3.47rem;
+	height: 0.19rem;
+}
+
+div.companyintro .intro {
+	color: #666666;
+	font-size: 0.14rem;
+	line-height: 0.27rem;
+	text-indent: 2em;
+	overflow: visible;
+	white-space: normal;
+}
+
+div.companyintro .imgboxhalf {
+	margin: 0 -0.08rem;
+	overflow: hidden;
+}
+
+div.companyintro .imgboxhalf img {
+	width: 3.6rem;
+	height: auto;
+	margin: 0.16rem 0.08rem 0;
+	float: left;
+}
+
+div.companyintro .imgbox img {
+	width: 100%;
+	height: auto;
+	margin: 0.16rem 0 0;
+	display: block;
+}
+
+div.companyintro .imgbox {
+	margin-bottom: 0.28rem;
+}
+
+
+/*标题时间的新闻列表*/
+
+.resour_content_box .resour_content .resour_con_right .resour_first .resour_con_right_list {
+	width: 100%;
+	height: auto;
+}
+
+.resour_content_box .resour_content .resour_con_right .resour_first .resour_con_right_list li {
+	width: 100%;
+	height: 0.38rem;
+	font-size: 0;
+}
+
+.resour_content_box .resour_content .resour_con_right .resour_first .resour_con_right_list li span {
+	display: inline-block;
+	width: 0.05rem;
+	height: 0.05rem;
+	border-radius: 50%;
+	background-color: #000000;
+	margin-right: 0.2rem;
+}
+
+.resour_content_box .resour_content .resour_con_right .resour_first .resour_con_right_list li p {
+	vertical-align: middle;
+	font-size: 0.18rem;
+	color: #333333;
+	display: inline-block;
+	width: 3.9rem;
+}
+
+.resour_content_box .resour_content .resour_con_right .resour_first .resour_con_right_list li p:hover {
+	color: #1584dc;
+	text-decoration: underline;
+}
+
+.resour_content_box .resour_content .resour_con_right .resour_first .resour_con_right_list li .resout_list_right_date {
+	float: right;
+	color: #999999;
+	width: auto;
+}
+
+.resour_content_box .resour_content .resour_con_right .resour_first .res_con_r_il_content {
+	width: 100%;
+	height: auto;
+}
+
+.resour_content_box .resour_content .resour_con_right .resour_first .res_con_r_il_content .res_con_r_il_content_title {
+	width: 100%;
+	height: auto;
+	margin-bottom: 0.4rem;
+	text-align: center;
+}
+
+.resour_content_box .resour_content .resour_con_right .resour_first .res_con_r_il_content .res_con_r_il_content_title p {
+	width: 100%;
+	color: #333333;
+}
+
+.resour_content_box .resour_content .resour_con_right .resour_first .res_con_r_il_content .res_con_r_il_content_img {
+	width: 3.93rem;
+	height: 3.11rem;
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #e60000;
+	margin-bottom: 0.4rem;
+}
+
+.resour_content_box .resour_content .resour_con_right .resour_first .res_con_r_il_content .res_con_r_il_content_img img {
+	width: 98%;
+	height: 98%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 2px;
+}
+
+.resour_content_box .resour_content .resour_con_right .resour_first .res_con_r_il_content .res_con_r_il_content_content {
+	width: 100%;
+	height: auto;
+	color: #999999;
+}
+
+.resour_content_box .resour_content .resour_con_right .resour_first .res_con_r_il_content .res_con_r_il_content_content p {
+	text-indent: 2em;
+	font-size: 0.16rem;
+	white-space: normal;
+}
+
+.resour_content_box .resour_content .resour_con_right .resour_first .res_con_r_il_content .res_con_r_il_content_content p.out_font {
+	color: #000000;
+}
+
+.resour_content_box .resour_content .resour_con_right .resour_first .res_con_r_il_content .res_con_r_il_content_content p.this_margin {
+	margin-bottom: 0.3rem;
+}
+
+.resour_content_box .resour_content .resour_con_right .resour_first .res_con_r_il_content .res_con_r_il_content_content p.this_margin_top {
+	margin-top: 0.3rem;
+}
+/*资质荣誉*/
+div.Aptitude{
+	margin:0 -0.1rem;
+	overflow: hidden;
+}
+div.Aptitude .imgbox{
+	width:3.6rem;
+	height:2.6rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	float:left;
+	margin:0.19rem 0.09rem;
+	position:relative;
+}
+div.Aptitude .imgbox p{
+	background:rgba(255,255,255,0.6);
+	line-height:0.3rem;
+	height:0.3rem;
+	width:100%;
+	position:absolute;
+	left:0;
+	bottom:0;
+	color:#666666;
+	font-size: 0.16rem;
+	padding-left:0.14rem;
+}
+/*联系我们*/
+div.contactus{
+	
+}
+div.contactus .contitle{
+	height:0.7rem;
+	line-height:0.7rem;
+	margin-bottom:0.05rem;
+}
+div.contactus .contitle img{
+	height:0.7rem;
+	float:left;
+	margin-right:0.2rem;
+}
+div.contactus .contitle p{
+	font-size:0.2rem;
+	color:#3f3e3e;
+	font-weight:700;
+	float:left;
+}
+div.contactus .coninfo{
+	height:0.35rem;
+	line-height:0.35rem;
+}
+div.contactus .coninfo span{
+	color:#3f3e3e;
+	font-size:0.2rem;
+	display: inline-block;
+	height:0.25rem;
+	/*width:0.9rem;*/
+	line-height:0.25rem;
+	/*border:1px solid #eeeeee;*/
+	border-radius:0.04rem;
+	margin-right:0.15rem;
+	background-repeat: no-repeat;
+	background-position: left center;
+	/*background-size:0.14rem auto;*/
+	padding-left:0.2rem;
+}
+div.contactus .coninfo span img{
+	width:0.14rem;
+	height:auto;
+	vertical-align: middle;
+	margin-right:0.03rem;
+}
+div.contactus .conform{
+	margin-top:0.4rem;
+	background-position:right bottom;
+	background-repeat: no-repeat;
+	background-size:3.19rem 2.55rem;
+	margin-bottom:-0.15rem;
+}
+div.contactus .conform form{
+	width:100%;
+	height:100%;
+}
+div.contactus .conform form .inputwrap{
+	padding-right:0.3rem;
+	/*height:0.35rem;*/
+	overflow: hidden;
+	line-height:0.35rem;
+	margin-bottom:0.16rem;
+	clear:both;
+}
+div.contactus .conform form .inputwrap label{
+	float:left;
+	width:5em;
+	margin-right:0.1rem;
+	text-align: right;
+}
+div.contactus .conform form .inputwrap input{
+	float:left;
+	border:1px solid #c0bfbe;
+	height:0.35rem;
+	width:6rem;
+}
+div.contactus .conform form .inputwrap textarea{
+	float:left;
+	border:1px solid #c0bfbe;
+	resize:vertical;
+	width:6rem;
+}
+div.contactus .conform form .btns{
+	height:0.43rem;
+	margin-top:0.4rem;
+	margin-bottom:1.3rem;
+	padding-left:1.2rem;
+	clear:both;
+}
+div.contactus .conform form .btns button{
+	height:0.43rem;
+	width:1.48rem;
+	float:left;
+	margin-right:0.15rem;
+	border:none;
+	background:#378ef8;
+	color:rgb(255,255,255);
+	font-size:0.18rem;
+	cursor: pointer;
+	border-radius:0.215rem;
+	line-height:0.43rem;
+	text-align: center;
+}
+div.contactus .conform form .btns a{
+	height:0.43rem;
+	width:1.48rem;
+	float:left;
+	margin-right:0.15rem;
+	border:1px solid #378ef8;
+	background:white;
+	color:#378ef8;
+	font-size:0.18rem;
+	cursor: pointer;
+	border-radius:0.215rem;
+	line-height:0.43rem;
+	text-align: center;
+}
+/*新闻详情页*/
+div.newsshow p{
+	color:#333333;
+	font-size:0.14rem;
+	line-height: 0.3rem;
+	overflow: visible;
+	white-space: normal;
+}
+div.newsshow p span{
+	color:#333333;
+	font-size:0.14rem;
+	line-height: 0.3rem;
+}
+div.newsshow img{
+	width:100%;
+	margin:0.1rem 0;
+}
+div.newsshow .newstitle{
+	color:#1584dc;
+	font-size: 0.18rem;
+	text-align: center;
+	line-height:0.5rem;
+	position:relative;
+	/*display: inline;*/
+}
+div.newsshow .newstitle:before{
+	/*content:'';*/
+	width:0.4rem;
+	height:1px;
+	position:absolute;
+	left:-0.5rem;
+	top:50%;
+	margin-top:-1px;
+	background:#1584dc;
+}
+div.newsshow .newstitle:after{
+	/*content:'';*/
+	width:0.4rem;
+	height:1px;
+	position:absolute;
+	right:-0.5rem;
+	top:50%;
+	margin-top:-1px;
+	background:#1584dc;
+}
