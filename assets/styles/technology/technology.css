@@ -1,5 +1,21 @@
+.resour_first.active .serve_con_right_con_effect .effect_only li {
+  animation: todown 0.5s linear; }
+
+.resour_first.active .serve_con_right_con_depth .depth_only li {
+  animation: todown 1s linear; }
+
+.resour_first.active .serve_con_right_con_kind .purpose_list li {
+  animation: todown 1s linear; }
+
+.resour_first.active .serve_con_right_con_ui .ui_only li {
+  animation: todown 1s linear; }
+
+.resour_first.active .serve_con_right_con_technology .advantage_con_right li {
+  animation: toup_down 1s linear; }
+
 .serve_con_right_content {
-  padding-top: 0.35rem; }
+  padding-top: 0.35rem;
+  overflow: hidden; }
   .serve_con_right_content .serve_common_title_common {
     margin-top: 0.9rem; }
     .serve_con_right_content .serve_common_title_common.margin_none {
@@ -108,12 +124,15 @@
     height: 1.3rem;
     font-size: 0;
     padding-left: 0.25rem; }
+    .serve_con_right_content .serve_con_right_con_merit .merit_only.active li {
+      display: inline-block;
+      animation: todown 1s linear; }
     .serve_con_right_content .serve_con_right_con_merit .merit_only li {
       width: 1.28rem;
       height: 100%;
       text-align: center;
       margin-left: 1.54rem;
-      display: inline-block; }
+      display: none; }
       .serve_con_right_content .serve_con_right_con_merit .merit_only li.margin {
         margin: 0; }
       .serve_con_right_content .serve_con_right_con_merit .merit_only li:hover p {
@@ -144,12 +163,16 @@
   .serve_con_right_content .serve_con_right_con_satisfy .satis_only {
     width: 100%;
     padding-left: 0.9rem;
-    font-size: 0; }
+    font-size: 0;
+    overflow: hidden; }
+    .serve_con_right_content .serve_con_right_con_satisfy .satis_only.active li {
+      display: inline-block;
+      animation: toup_down 1s linear; }
     .serve_con_right_content .serve_con_right_con_satisfy .satis_only li {
       width: 2.2rem;
       height: 100%;
       margin-left: 1.15rem;
-      display: inline-block;
+      display: none;
       margin-bottom: 0.4rem;
       text-align: center; }
       .serve_con_right_content .serve_con_right_con_satisfy .satis_only li.margin_none {
@@ -178,7 +201,8 @@
     width: 3.23rem; }
   .serve_con_right_content .serve_con_right_con_effect .effect_only {
     width: 100%;
-    padding-left: 0.94rem; }
+    padding-left: 0.94rem;
+    overflow: hidden; }
     .serve_con_right_content .serve_con_right_con_effect .effect_only li {
       width: 1rem;
       height: 0.96rem;
@@ -259,6 +283,8 @@
       display: inline-block;
       margin-left: 0.77rem;
       text-align: center; }
+      .serve_con_right_content .serve_con_right_con_Intelligence .Intelligence_only li:hover img {
+        animation: rotate 0.5s linear; }
       .serve_con_right_content .serve_con_right_con_Intelligence .Intelligence_only li.margin {
         margin: 0; }
       .serve_con_right_content .serve_con_right_con_Intelligence .Intelligence_only li img {
@@ -272,7 +298,8 @@
   .serve_con_right_content .serve_con_right_con_technology .serve_con_technology_title img {
     width: 2.61rem; }
   .serve_con_right_content .serve_con_right_con_technology .advantage_con_right {
-    padding-left: 0.55rem; }
+    padding-left: 0.55rem;
+    overflow: hidden; }
     .serve_con_right_content .serve_con_right_con_technology .advantage_con_right li {
       width: 6.75rem;
       border-right: 3px solid #ffffff;
@@ -280,13 +307,22 @@
       height: 2.10rem;
       margin-bottom: 0.3rem;
       font-size: 0;
-      padding: 0.28rem  0.4rem 0.32rem 0.5rem; }
+      padding: 0.28rem 0.4rem 0.32rem 0.5rem; }
       .serve_con_right_content .serve_con_right_con_technology .advantage_con_right li:hover {
         box-shadow: 0 0 10px rgba(37, 177, 241, 0.3);
         border-right: 3px solid #01a4ef; }
       .serve_con_right_content .serve_con_right_con_technology .advantage_con_right li img {
         display: inline-block;
         margin-top: 0.3rem; }
+        .serve_con_right_content .serve_con_right_con_technology .advantage_con_right li img.first {
+          width: 0.99rem;
+          height: 1.43rem; }
+        .serve_con_right_content .serve_con_right_con_technology .advantage_con_right li img.two {
+          width: 0.93rem;
+          height: 0.93rem; }
+        .serve_con_right_content .serve_con_right_con_technology .advantage_con_right li img.three {
+          width: 1.08rem;
+          height: 0.95rem; }
         .serve_con_right_content .serve_con_right_con_technology .advantage_con_right li img.margin {
           margin: 0; }
       .serve_con_right_content .serve_con_right_con_technology .advantage_con_right li .con_right_font {
@@ -327,15 +363,20 @@
           white-space: normal; }
   .serve_con_right_content .serve_con_right_con_web .serve_con_web_title img {
     width: 2.05rem;
-    height: 0.36rem; }
+    height: 0.37rem; }
   .serve_con_right_content .serve_con_right_con_web .pc_content_font {
     font-size: 0;
-    padding-left: 0.5rem; }
+    padding-left: 0.5rem;
+    overflow: hidden; }
+    .serve_con_right_content .serve_con_right_con_web .pc_content_font.active li {
+      display: block;
+      animation: toup_down 0.5s linear; }
     .serve_con_right_content .serve_con_right_con_web .pc_content_font li {
       width: 100%;
       height: 1.17rem;
       margin-bottom: 0.66rem;
-      font-size: 0; }
+      font-size: 0;
+      display: none; }
       .serve_con_right_content .serve_con_right_con_web .pc_content_font li .pc_content_font_img {
         width: 0.75rem;
         height: 0.75rem;
@@ -358,15 +399,20 @@
           line-height: 1.7;
           -webkit-line-clamp: 3; }
   .serve_con_right_content .serve_con_right_con_app .serve_con_app_title img {
-    width: 2.57rem;
-    height: 0.37rem; }
+    width: 2.55rem;
+    height: 0.38rem; }
   .serve_con_right_content .serve_con_right_con_app .app_content_font {
-    padding-left: 0.5rem; }
+    padding-left: 0.5rem;
+    overflow: hidden; }
+    .serve_con_right_content .serve_con_right_con_app .app_content_font.active li {
+      display: block;
+      animation: toup_down 0.5s linear; }
     .serve_con_right_content .serve_con_right_con_app .app_content_font li {
       width: 100%;
       height: 1.15rem;
       margin-bottom: 0.55rem;
       font-size: 0;
+      display: none;
       text-align: right; }
       .serve_con_right_content .serve_con_right_con_app .app_content_font li .app_content_font_img {
         width: 0.75rem;
@@ -393,7 +439,7 @@
           -webkit-line-clamp: 3; }
   .serve_con_right_content .serve_con_right_con_backstage .serve_con_backstage_title img {
     width: 2.57rem;
-    height: 0.57rem; }
+    height: 0.53rem; }
   .serve_con_right_content .serve_con_right_con_backstage .develop_img {
     width: 100%;
     margin-top: 0.3rem; }
@@ -470,3 +516,254 @@
           color: #7b7b7b;
           white-space: normal;
           display: block; }
+  .serve_con_right_content .serve_con_right_con_plan {
+    padding-top: 0.18rem; }
+    .serve_con_right_content .serve_con_right_con_plan .serve_con_plan_title {
+      margin-bottom: 0.6rem; }
+      .serve_con_right_content .serve_con_right_con_plan .serve_con_plan_title img {
+        width: 2.81rem; }
+    .serve_con_right_content .serve_con_right_con_plan .advantage_content {
+      padding: 0;
+      font-size: 0; }
+      .serve_con_right_content .serve_con_right_con_plan .advantage_content li {
+        width: 3.68rem;
+        display: inline-block;
+        height: 1.12rem;
+        margin-bottom: 0.37rem;
+        padding-right: 0.18rem;
+        overflow: hidden; }
+        .serve_con_right_content .serve_con_right_con_plan .advantage_content li img {
+          width: 0.5rem;
+          height: 0.5rem; }
+        .serve_con_right_content .serve_con_right_con_plan .advantage_content li .advantage_title {
+          font-size: 0.18rem;
+          margin-bottom: 0.22rem;
+          color: #fda902;
+          width: 2.02rem;
+          margin-left: 0.1rem;
+          vertical-align: top;
+          font-weight: bold;
+          display: inline-block; }
+          .serve_con_right_content .serve_con_right_con_plan .advantage_content li .advantage_title.plana {
+            color: #4192ED; }
+          .serve_con_right_content .serve_con_right_con_plan .advantage_content li .advantage_title.planb {
+            color: #A2D2E4; }
+          .serve_con_right_content .serve_con_right_con_plan .advantage_content li .advantage_title.planc {
+            color: #3ED8C7; }
+          .serve_con_right_content .serve_con_right_con_plan .advantage_content li .advantage_title.pland {
+            color: #E8716B; }
+          .serve_con_right_content .serve_con_right_con_plan .advantage_content li .advantage_title.plane {
+            color: #28D687; }
+          .serve_con_right_content .serve_con_right_con_plan .advantage_content li .advantage_title p {
+            font-size: inherit;
+            color: inherit; }
+            .serve_con_right_content .serve_con_right_con_plan .advantage_content li .advantage_title p.active {
+              font-weight: bold; }
+        .serve_con_right_content .serve_con_right_con_plan .advantage_content li .advantage_content_font {
+          font-size: 0.16rem;
+          color: #535353; }
+          .serve_con_right_content .serve_con_right_con_plan .advantage_content li .advantage_content_font p {
+            font-size: inherit;
+            white-space: normal;
+            color: #535353; }
+  .serve_con_right_content .serve_con_right_con_plan1 .serve_con_plan1_title img {
+    width: 2.84rem; }
+  .serve_con_right_content .serve_con_right_con_plan1 .thinking_content {
+    font-size: 0; }
+    .serve_con_right_content .serve_con_right_con_plan1 .thinking_content li {
+      width: 3.68rem;
+      height: 0.7rem;
+      display: inline-block;
+      margin-bottom: 0.4rem;
+      font-size: 0; }
+      .serve_con_right_content .serve_con_right_con_plan1 .thinking_content li:hover .thinking_con_img.first {
+        background-image: url(../../images/technology/plan/08.png); }
+      .serve_con_right_content .serve_con_right_con_plan1 .thinking_content li:hover .thinking_con_img.two {
+        background-image: url(../../images/technology/plan/03.png); }
+      .serve_con_right_content .serve_con_right_con_plan1 .thinking_content li:hover .thinking_con_img.three {
+        background-image: url(../../images/technology/plan/04.png); }
+      .serve_con_right_content .serve_con_right_con_plan1 .thinking_content li:hover .thinking_con_img.firs {
+        background-image: url(../../images/technology/plan/02.png); }
+      .serve_con_right_content .serve_con_right_con_plan1 .thinking_content li.margin_none {
+        margin: 0; }
+      .serve_con_right_content .serve_con_right_con_plan1 .thinking_content li .thinking_con_img {
+        width: 0.7rem;
+        height: 0.7rem;
+        display: inline-block;
+        background-color: rgba(65, 146, 237, 0.1);
+        text-align: center;
+        border-radius: 50%;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center; }
+        .serve_con_right_content .serve_con_right_con_plan1 .thinking_content li .thinking_con_img.first {
+          background-image: url(../../images/technology/plan/01.png); }
+          .serve_con_right_content .serve_con_right_con_plan1 .thinking_content li .thinking_con_img.first:hover {
+            background-image: url(../../images/technology/plan/08.png); }
+        .serve_con_right_content .serve_con_right_con_plan1 .thinking_content li .thinking_con_img.two {
+          background-image: url(../../images/technology/plan/06.png); }
+          .serve_con_right_content .serve_con_right_con_plan1 .thinking_content li .thinking_con_img.two:hover {
+            background-image: url(../../images/technology/plan/03.png); }
+        .serve_con_right_content .serve_con_right_con_plan1 .thinking_content li .thinking_con_img.three {
+          background-image: url(../../images/technology/plan/07.png); }
+          .serve_con_right_content .serve_con_right_con_plan1 .thinking_content li .thinking_con_img.three:hover {
+            background-image: url(../../images/technology/plan/04.png); }
+        .serve_con_right_content .serve_con_right_con_plan1 .thinking_content li .thinking_con_img.firs {
+          background-image: url(../../images/technology/plan/05.png); }
+          .serve_con_right_content .serve_con_right_con_plan1 .thinking_content li .thinking_con_img.firs:hover {
+            background-image: url(../../images/technology/plan/02.png); }
+      .serve_con_right_content .serve_con_right_con_plan1 .thinking_content li .thinking_con_font {
+        width: 2.4rem;
+        height: 100%;
+        display: inline-block;
+        margin-left: 0.07rem;
+        vertical-align: top;
+        padding-top: 0.1rem; }
+        .serve_con_right_content .serve_con_right_con_plan1 .thinking_content li .thinking_con_font h5 {
+          font-size: 0.16rem;
+          color: #333333;
+          margin-bottom: 0.14rem;
+          font-weight: bold; }
+        .serve_con_right_content .serve_con_right_con_plan1 .thinking_content li .thinking_con_font p {
+          font-size: 0.14rem;
+          color: #7b7b7b;
+          display: block; }
+  .serve_con_right_content .serve_con_right_con_kind .serve_con_kind_title img {
+    width: 3.25rem; }
+  .serve_con_right_content .serve_con_right_con_kind .purpose_list {
+    font-size: 0;
+    padding-left: 0.17rem; }
+    .serve_con_right_content .serve_con_right_con_kind .purpose_list li {
+      margin-left: 0.38rem;
+      width: 2.1rem;
+      height: 100%;
+      text-align: center;
+      display: inline-block; }
+      .serve_con_right_content .serve_con_right_con_kind .purpose_list li.margin_none {
+        margin: 0; }
+      .serve_con_right_content .serve_con_right_con_kind .purpose_list li img {
+        width: 1rem;
+        height: 1rem;
+        margin-bottom: 0.25rem; }
+      .serve_con_right_content .serve_con_right_con_kind .purpose_list li .purpose_list_con {
+        width: 100%; }
+        .serve_con_right_content .serve_con_right_con_kind .purpose_list li .purpose_list_con h5 {
+          font-size: 0.18rem;
+          color: #000000; }
+        .serve_con_right_content .serve_con_right_con_kind .purpose_list li .purpose_list_con span {
+          width: 0.4rem;
+          height: 3px;
+          background-color: #4192ed;
+          display: inline-block;
+          margin: 0 auto; }
+        .serve_con_right_content .serve_con_right_con_kind .purpose_list li .purpose_list_con p {
+          font-size: 0.14rem;
+          color: #999999; }
+  .serve_con_right_content .serve_con_right_con_ui .serve_con_ui_title img {
+    width: 2.04rem; }
+  .serve_con_right_content .serve_con_right_con_ui .ui_only {
+    font-size: 0; }
+    .serve_con_right_content .serve_con_right_con_ui .ui_only li {
+      width: 3.68rem;
+      height: 1.03rem;
+      margin-bottom: 0.43rem;
+      display: inline-block;
+      padding-left: 0.98rem;
+      padding-top: 0.25rem;
+      background-size: 95% 100%;
+      background-repeat: no-repeat; }
+      .serve_con_right_content .serve_con_right_con_ui .ui_only li p {
+        font-size: 0.2rem;
+        color: #333; }
+        .serve_con_right_content .serve_con_right_con_ui .ui_only li p span {
+          font-size: 0.2rem;
+          color: #666666; }
+      .serve_con_right_content .serve_con_right_con_ui .ui_only li span {
+        font-size: 0.14rem;
+        color: #999999; }
+      .serve_con_right_content .serve_con_right_con_ui .ui_only li.book {
+        background-image: url(../../images/technology/ui/11.png); }
+      .serve_con_right_content .serve_con_right_con_ui .ui_only li.paper {
+        background-image: url(../../images/technology/ui/22.png); }
+      .serve_con_right_content .serve_con_right_con_ui .ui_only li.icon {
+        background-image: url(../../images/technology/ui/44.png); }
+      .serve_con_right_content .serve_con_right_con_ui .ui_only li.web {
+        background-image: url(../../images/technology/ui/33.png); }
+  .serve_con_right_content .serve_con_right_con_appui .serve_con_appui_title img {
+    width: 2.03rem;
+    height: 0.54rem; }
+  .serve_con_right_content .serve_con_right_con_appui .app_content {
+    font-size: 0;
+    padding-left: 0.3rem; }
+    .serve_con_right_content .serve_con_right_con_appui .app_content li {
+      width: 1.7rem;
+      height: 3.44rem;
+      display: inline-block;
+      background-image: url(../../images/technology/ui/ss.png);
+      background-size: 100%;
+      padding-top: 0.4rem;
+      padding-left: 0.08rem;
+      background-repeat: no-repeat;
+      margin-left: 0.8rem; }
+      .serve_con_right_content .serve_con_right_con_appui .app_content li.margin_none {
+        margin: 0; }
+      .serve_con_right_content .serve_con_right_con_appui .app_content li img {
+        width: 1.55rem;
+        height: 2.67rem; }
+  .serve_con_right_content .serve_con_right_con_webui .serve_con_webui_title img {
+    width: 2.04rem;
+    height: 0.54rem; }
+  .serve_con_right_content .serve_con_right_con_webui .web_tem {
+    width: 100%;
+    height: 3.12rem;
+    background-repeat: no-repeat;
+    background-image: url(../../images/technology/ui/6.png);
+    background-size: 95% 100%;
+    background-position: center;
+    position: relative; }
+    .serve_con_right_content .serve_con_right_con_webui .web_tem .web_tem_font {
+      width: 3.69rem;
+      height: 1.78rem;
+      position: absolute;
+      top: 1.06rem;
+      left: 0;
+      text-align: center; }
+      .serve_con_right_content .serve_con_right_con_webui .web_tem .web_tem_font p {
+        font-size: 0.36rem;
+        color: #000000;
+        letter-spacing: 14px;
+        margin-left: 0.1rem; }
+      .serve_con_right_content .serve_con_right_con_webui .web_tem .web_tem_font span {
+        color: #000000;
+        font-size: 0.22rem; }
+  .serve_con_right_content .serve_con_right_con_wx .serve_con_wx_title {
+    margin: 0; }
+    .serve_con_right_content .serve_con_right_con_wx .serve_con_wx_title img {
+      width: 2.02rem; }
+  .serve_con_right_content .serve_con_right_con_wx .wx_ui {
+    width: 100%;
+    height: 4.38rem;
+    background-image: url(../../images/technology/ui/7.png);
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position: center; }
+    .serve_con_right_content .serve_con_right_con_wx .wx_ui img {
+      width: 100%; }
+
+@keyframes todown {
+  from {
+    transform: translateX(-500px); }
+  to {
+    transform: translateX(0); } }
+
+@keyframes rotate {
+  form {
+    transform: rotate(0); }
+  to {
+    transform: rotate(360deg); } }
+
+@keyframes toup_down {
+  from {
+    transform: translateY(-500px); }
+  to {
+    transform: translateY(0); } }
