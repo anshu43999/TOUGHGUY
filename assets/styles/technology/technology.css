@@ -244,7 +244,11 @@
         .serve_con_right_content .serve_con_right_con_depth .depth_only li .depth_content p {
           white-space: normal;
           font-size: 0.14rem;
-          color: #333333; }
+          color: #333333;
+          display: -webkit-box;
+          /* word-break: break-all; */
+          -webkit-line-clamp: 4;
+          -webkit-box-orient: vertical; }
       .serve_con_right_content .serve_con_right_con_depth .depth_only li .depth_title {
         text-align: right;
         background-size: 60%;
@@ -279,7 +283,7 @@
     padding-left: 0.33rem; }
     .serve_con_right_content .serve_con_right_con_Intelligence .Intelligence_only li {
       width: 1.08rem;
-      height: 1.5rem;
+      height: 1.7rem;
       display: inline-block;
       margin-left: 0.77rem;
       text-align: center; }
