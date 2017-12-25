@@ -31,10 +31,10 @@
 			if(el > satis_only - 1000) {
 				animationfun(".serve_con_right_con_satisfy", ".satis_only", "active")
 			}
-			if(el > web - 500) {
+			if(el > web - 800) {
 				animationfun(".serve_con_right_con_web", ".pc_content_font", "active")
 			}
-			if(el > app - 200) {
+			if(el > app - 400) {
 				animationfun(".serve_con_right_con_app", ".app_content_font", "active")
 			}
 		})
