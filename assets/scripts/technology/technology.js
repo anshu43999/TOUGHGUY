@@ -24,13 +24,14 @@
 		}
 
 		$(window).on("scroll", function(e) {
-			var el = $("html,body").scrollTop()
+			var el = $("html body").scrollTop()
 			if(el > merit - 1000) {
 				animationfun(".serve_con_right_con_merit", ".merit_only", "active")
 			}
 			if(el > satis_only - 1000) {
 				animationfun(".serve_con_right_con_satisfy", ".satis_only", "active")
 			}
+			console.log(web,app,el)
 			if(el > web - 800) {
 				animationfun(".serve_con_right_con_web", ".pc_content_font", "active")
 			}
