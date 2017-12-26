@@ -60,8 +60,12 @@
      background-color:#eee;
      line-height: 26px;
      padding: 0rem 0 0 6px;
+     padding-top:0.1rem;
      font-weight: lighter;
      letter-spacing: 1px; 
+}
+.amap-adcombo-close{
+	background-image:url("http://webapi.amap.com/images/close2.gif")
 }
  .info-title img{
      height:0.4rem;
