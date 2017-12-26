@@ -39,5 +39,47 @@
 				animationfun(".serve_con_right_con_app", ".app_content_font", "active")
 			}
 		})
+		
+		
+//	侧导航定位
+	var left_nav=$('.resour_content_box .resour_content .resour_con_left');
+	var left_nav_top=left_nav.offset().top;
+	var left_nav_height=left_nav.height();
+	var rem=parseInt($('html').css('fontSize'));
+	var fixedTop=1.2*rem;	
+	var fixedBottom=$('.footer').offset().top-0.4*rem-left_nav_height-1.2*rem;	
+//	由于变更定位后父元素无法被撑开设定最低高度
+	$('.resour_content_box').css('minHeight',left_nav_height)
+	//	页面加载后监控滚轮滚动位置
+
+	if($(document).scrollTop()+fixedTop>=left_nav_top){
+		left_nav.addClass('fixed')
+	}else{
+		left_nav.removeClass('fixed')
+	}
+	if($(document).scrollTop()>=fixedBottom){
+		left_nav.addClass('bottom')
+	}else{
+		left_nav.removeClass('bottom')
+	}
+//	页面滚动中的
+//	console.log(fixedBottom);
+	
+	$(window).on('scroll.nav',function() {
+		fixedBottom=$('.footer').offset().top-0.4*rem-left_nav_height-1.2*rem;
+		if($(document).scrollTop()+fixedTop>=left_nav_top){
+			left_nav.addClass('fixed')
+		}else{
+			left_nav.removeClass('fixed')
+		}
+		if($(document).scrollTop()>=fixedBottom){
+			left_nav.addClass('bottom')
+		}else{
+			left_nav.removeClass('bottom')
+		}
+	});
+	
+	
+	
 	})
 })(jQuery)

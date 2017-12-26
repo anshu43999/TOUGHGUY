@@ -180,7 +180,8 @@
 
 .resour_content_box .resour_content .resour_con_right .resour_first .reour_con_right_select .classify_industry .class_inde_list {
 	display: inline-block;
-	width: 5rem;
+	/*width: 5rem;*/
+	width: 5.9rem;
 	font-size: 0;
 	word-break: break-all;
 }
@@ -195,11 +196,15 @@
 	line-height: 0.3rem;
 }
 
-.resour_content_box .resour_content .resour_con_right .resour_first .reour_con_right_select .classify_industry .class_inde_list li:hover {
+.resour_content_box .resour_content .resour_con_right .resour_first .reour_con_right_select .classify_industry .class_inde_list li:hover span{
 	/*background-color: #d2222c;*/
 	color: #1584dc;
+	text-decoration: underline;
 }
-
+.resour_content_box .resour_content .resour_con_right .resour_first .reour_con_right_select .classify_industry .class_inde_list li.active span {
+	text-decoration: underline;
+	color: #1584dc;
+}
 ul.cards {
 	/*width:100%;*/
 	margin: 0 -0.1rem;

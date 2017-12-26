@@ -105,3 +105,7 @@ div.pagination button.search{
 	outline: none;
 	padding:0;
 }
+div.pagination a.disabled{
+	opacity: 0.6;
+	cursor: not-allowed;
+}

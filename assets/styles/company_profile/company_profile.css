@@ -82,6 +82,7 @@ div.companyintro .imgbox {
 	float: right;
 	color: #999999;
 	width: auto;
+	line-height:0.34rem;
 }
 
 .resour_content_box .resour_content .resour_con_right .resour_first .res_con_r_il_content {
@@ -173,39 +174,47 @@ div.contactus{
 	
 }
 div.contactus .contitle{
-	height:0.7rem;
-	line-height:0.7rem;
+	/*height:0.7rem;
+	line-height:0.7rem;*/
+	overflow: hidden;
 	margin-bottom:0.05rem;
 }
 div.contactus .contitle img{
-	height:0.7rem;
+	height:auto;
 	float:left;
-	margin-right:0.2rem;
+	margin-right:0.15rem;
+	width:1rem;
 }
 div.contactus .contitle p{
 	font-size:0.2rem;
 	color:#3f3e3e;
 	font-weight:700;
 	float:left;
+	line-height: 0.77rem;
 }
 div.contactus .coninfo{
 	height:0.35rem;
 	line-height:0.35rem;
+	font-weight:200;
+	font-size:0.16rem;
 }
 div.contactus .coninfo span{
+	font-weight:400;
 	color:#3f3e3e;
-	font-size:0.2rem;
+	font-size:0.16rem;
 	display: inline-block;
 	height:0.25rem;
-	/*width:0.9rem;*/
+	width:1rem;
 	line-height:0.25rem;
-	/*border:1px solid #eeeeee;*/
+	text-align: center;
+	border:1px solid #eeeeee;
 	border-radius:0.04rem;
 	margin-right:0.15rem;
 	background-repeat: no-repeat;
 	background-position: left center;
-	/*background-size:0.14rem auto;*/
-	padding-left:0.2rem;
+	background-size:0.2rem 0.15rem;
+	/*padding-left:0.2rem;*/
+	padding-left:1em;
 }
 div.contactus .coninfo span img{
 	width:0.14rem;
@@ -234,21 +243,21 @@ div.contactus .conform form .inputwrap{
 }
 div.contactus .conform form .inputwrap label{
 	float:left;
-	width:5em;
-	margin-right:0.1rem;
+	width:1rem;
+	margin-right:0.15rem;
 	text-align: right;
 }
 div.contactus .conform form .inputwrap input{
 	float:left;
 	border:1px solid #c0bfbe;
 	height:0.35rem;
-	width:6rem;
+	width:5.9rem;
 }
 div.contactus .conform form .inputwrap textarea{
 	float:left;
 	border:1px solid #c0bfbe;
 	resize:vertical;
-	width:6rem;
+	width:5.9rem;
 }
 div.contactus .conform form .btns{
 	height:0.43rem;

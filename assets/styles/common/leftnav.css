@@ -35,7 +35,7 @@
 }
 
 .project_hearder_box .project_hearder {
-	width: 12rem;
+	/*width: 12rem;*/
 	height: 100%;
 	margin: 0 auto;
 	border-bottom: 1px solid #e7e7e7;
@@ -94,6 +94,7 @@
 .resour_content_box {
 	width: 100%;
 	height: auto;
+	position:relative;
 }
 
 .resour_content_box .resour_content {
@@ -106,6 +107,17 @@
 	width: 3.79rem;
 	height: auto;
 	float: left;
+}
+.resour_content_box .resour_content .resour_con_left.fixed {
+	position:fixed;
+	top:1.2rem;
+	z-index: 660;
+}
+.resour_content_box .resour_content .resour_con_left.bottom {
+	position:absolute;
+	top:auto;
+	bottom:0;
+	z-index: 660;
 }
 
 .resour_content_box .resour_content .resour_con_left .resour_con_left_list {
@@ -179,6 +191,7 @@
 }
 
 .resour_content_box .resour_content .resour_con_right {
+	margin-top:0.51rem;
 	width: 7.88rem;
 	height: auto;
 	float: right;
