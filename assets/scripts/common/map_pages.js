@@ -7,7 +7,7 @@ var map = new AMap.Map('map', {
 var marker = new AMap.Marker({
     position: lnglat
 });
-//marker.setMap(map);
+marker.setMap(map);
 AMap.plugin(['AMap.AdvancedInfoWindow'],function(){
     var content='<div class="info-title"><img src="../../assets/images/index/logo_map2.png" style="width:0.2rem;height:0.2rem;"><p style="margin-left:0.05rem;line-height:0.2rem;color:#333;display:inline-block;">硬汉科技</p></div><div class="info-content">' +
 //	    '<img src="http://webapi.amap.com/images/amap.jpg">' +

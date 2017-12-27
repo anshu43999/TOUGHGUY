@@ -17,6 +17,7 @@
 				web = $(".serve_con_right_con_web").offset().top
 				app = $(".serve_con_right_con_app").offset().top
 			}
+			setLeftnavPosition();
 		})
 		// 添加动效的时候的类名
 		function animationfun(domfath, domchild, classify) {
@@ -51,21 +52,8 @@
 //	由于变更定位后父元素无法被撑开设定最低高度
 	$('.resour_content_box').css('minHeight',left_nav_height)
 	//	页面加载后监控滚轮滚动位置
-
-	if($(document).scrollTop()+fixedTop>=left_nav_top){
-		left_nav.addClass('fixed')
-	}else{
-		left_nav.removeClass('fixed')
-	}
-	if($(document).scrollTop()>=fixedBottom){
-		left_nav.addClass('bottom')
-	}else{
-		left_nav.removeClass('bottom')
-	}
-//	页面滚动中的
-//	console.log(fixedBottom);
-	
-	$(window).on('scroll.nav',function() {
+	//  侧导航的定位设置方法
+	function setLeftnavPosition(){
 		fixedBottom=$('.footer').offset().top-0.4*rem-left_nav_height-1.2*rem;
 		if($(document).scrollTop()+fixedTop>=left_nav_top){
 			left_nav.addClass('fixed')
@@ -77,6 +65,11 @@
 		}else{
 			left_nav.removeClass('bottom')
 		}
+	}
+	setLeftnavPosition()
+//	页面滚动中的	
+	$(window).on('scroll.nav',function() {
+		setLeftnavPosition()
 	});
 	
 	
