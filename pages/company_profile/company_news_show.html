@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta charset="UTF-8">
+		<title>公司概况</title>
+		<link rel="stylesheet" href="../../assets/styles/common/common.css" />
+		<link rel="stylesheet" href="../../assets/styles/common/header.css" />
+		<link rel="stylesheet" href="../../assets/styles/common/footer.css" />
+		<link rel="stylesheet" href="../../assets/styles/common/leftnav.css" />
+		<link rel="stylesheet" href="../../assets/styles/company_profile/company_profile.css" />
+		<link rel="stylesheet" href="../../assets/fonts/iconfont/iconfont.css" />
+		<link rel="stylesheet" href="../../assets/styles/common/lemonPaging.css" />
+		<script src="../../assets/scripts/jquery1.9.1/jquery1.9.1.min.js"></script>
+		<script src="../../assets/scripts/common/main.js"></script>
+		<script src="../../assets/scripts/common/lemonPaging.js"></script>
+		<script src="../../assets/scripts/company_profile/company_profile.js"></script>
+	</head>
+		<body>
+		<!--头部导航-->
+		<div class="navwrap bgnav">		
+			<div class="nav">
+				<div class="logo">
+					<img src="../../assets/images/index/logo.png" alt="" />
+				</div>
+				<ul>
+					<li>
+						<a href="../../index.html">首页</a>
+					</li>
+					<li>
+						<a href="../../pages/product/product.html">产品中心</a>
+					</li>
+					<li>
+						<a href="../../pages/technology/technology.html">技术服务</a>
+					</li>
+					<li class="active">
+						<a href="../../pages/company_profile/company_profile.html">公司概况</a>
+					</li>
+					<li>
+						<!--<a href="../../pages/contact/contact.html">联系我们</a>-->
+						<a href="../../pages/company_profile/company_profile.html">联系我们</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--导航下的展示图-->
+		<div class="ad" style="background-image:url('../../assets/images/common/ad.png')">
+			
+		</div>
+		<div class="main">
+			<!--面包屑开始-->
+		<div class="nav_box">
+			<div class="nav">
+				<p>当前页面 : <a href="../../index.html">首页</a><img src="../../assets/images/common/arrow.png" alt=""><span><a href="">公司概况</a></span></p>
+			</div>
+		</div>
+		<!--面包屑结束-->
+		<!--资源库内容开始-->
+		<div class="resour_content_box">
+			<div class="resour_content">
+				<!--资源库左面开始-->
+				<div class="resour_con_left">
+					<!--项目库头开始-->
+					<div class="project_hearder_box">
+						<div class="project_hearder">
+							<p><i class="iconfont icon-gongsi"></i><span>公司概况</span></p>
+						</div>
+					</div>
+					<!--项目库头结束-->
+					<ul class="resour_con_left_list">
+						<li>
+							<a href="../../pages/company_profile/company_profile.html">
+								<span></span>
+								<p>公司介绍</p>
+							</a>
+						</li>
+						<li class="active">
+							<a href="../../pages/company_profile/company_profile.html">
+								<span></span>
+								<p>公司新闻</p>
+							</a>
+						</li>
+						<li>
+							<a href="../../pages/company_profile/company_profile.html">
+								<span></span>
+								<p>资质荣誉</p>
+							</a>
+						</li>
+						<li>
+							<a href="../../pages/company_profile/company_profile.html">
+								<span></span>
+								<p>联系我们</p>
+							</a>
+						</li>
+					</ul>
+					<div class="resour_con_left_key_img">
+						<img src="../../assets/images/common/left_ad.png" alt="" />
+					</div>
+				</div>
+				<!--资源库左面结束-->
+				<!--资源库选项卡开始-->
+				<div class="resour_con_right">
+					<div class="resour_first active">
+						<div class="resour_con_right_title">
+							<p>公司新闻详情</p>
+						</div>
+						<div class="newsshow">
+							<h3 class="newstitle">AI为人民服务:视觉缺陷检测</h3>
+							<p >
+							    在制造业中，我们常常看到各种工业缺陷检测的需求，本文讲解的是2017年较新的Civil Infrastructure Defect Detection and Classification。
+							</p>
+							<p >
+							    <span style="box-sizing: inherit; font-weight: 600;">模型介绍</span>
+							</p>
+							<div>
+							    <img src="../../assets/images/company/show1.jpg" /><span style="color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans SC&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: medium; background-color: rgb(255, 255, 255);">本模型主要有几个特点，</span>
+							</div>
+							<p >
+							    1. 结合了深度学习，使用了深度残差神经网络ResNet-based分类器。
+							</p>
+							<p >
+							    2. 数据集分成4个分类，分别是裂缝、沉积、漏水和正常。
+							</p>
+							<p >
+							    3. 使用pixel-wise作为分类输入判断。
+							</p>
+							<p >
+							    4. 因为缺陷数据一般都不多，系统中增加了Active Learning作为数据增量训练。
+							</p>
+							<div>
+							    <img src="../../assets/images/company/show2.jpg"/>
+							</div>
+							<p >
+							    5. 使用最简单的交叉熵作为损失函数。
+							</p>
+							<p >
+							    <span style="box-sizing: inherit; font-weight: 600;">使用数据</span>
+							</p>
+							<p >
+							    实验中使用的数据为603张4096x4800的图片，使用滑窗的方法，转换为289440张520x520张图片，数据中60%作为训练数据，20%验证集和20%测试集，数据中22.6%的数据作为正样本（即有问题的图片），正样本数据的定义为以图片中心480x480的像素中，至少一个像素是判断为有缺陷的。
+							</p>
+							<div>
+							    <img src="../../assets/images/company/show3.jpg"/>
+							</div>
+							<p >
+							    <span style="box-sizing: inherit; font-weight: 600;">模型结果</span>
+							</p>
+							<p >
+							    该模型最终的测试集结果为准确率87.5%。
+							</p>
+							<p >
+							    <span style="box-sizing: inherit; font-weight: 600;">编者总结</span>
+							</p>
+							<p >
+							    这个模型是今年2017年较新提出来的模型，分享给大家的目的主要是这个模型的方式在未来可以应用在更多的缺陷检测的问题上，特别是工业和制造业的得到非常多的应用。其中深度神经网络的选择可以多样和参数可以多样，分类的结果也可以有更多，然后在AL的方法可以进一步深化和细化。
+							</p>
+							<p>
+							    <br/>
+							</p>
+						</div>
+					</div>
+				</div>
+				<!--资源库选项卡结束-->
+				<div style="clear:both;"></div>
+			</div>
+		</div>
+		</div>
+		
+		
+		
+		
+		<!--底部-->
+		<div class="footerwrap">
+			<div class="footer">
+				<div id="map">
+					
+				</div>
+				<div class="scan_code">
+					<img src="../../assets/images/index/scan_code.png" alt="" />
+				</div>
+				<ul class="infor">
+					<li>
+						<p>
+							<i class="iconfont icon-qq1"></i>
+							QQ交谈：
+							<span>***************</span>
+						</p>
+					</li>
+					<li>
+						<p>
+							<i class="iconfont icon-youxiang1"></i>
+							邮箱：
+							<span>23445666@qq.com</span>
+						</p>
+					</li>
+					<li>
+						<p>
+							<i class="iconfont icon-dingdanxiangqingdadianhua"></i>
+							咨询电话：
+							<span>0351-2509223/4</span>
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--地图相关内容-->
+		<link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+	    <script src="http://cache.amap.com/lbs/static/es5.min.js"></script>
+	    <script src="http://webapi.amap.com/maps?v=1.4.2&key=3a5b4089cae705f26f4bacf2cef24e29"></script>
+	    <!--<script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>-->
+	    <script src="../../assets/scripts/common/map_pages.js"></script>
+	</body>
+</html>

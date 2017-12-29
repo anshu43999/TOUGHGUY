@@ -7,7 +7,7 @@ $(function(){
    	'pre_next':'false',//默认显示上一页下一页
    	'searchable':'false',//默认带跳转输入框
    	'successcallback':function(data){
-   		console.log(11);
+// 		console.log(11);
    	},//列表数据填充容器
    });
 })

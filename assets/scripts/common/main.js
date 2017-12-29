@@ -29,9 +29,9 @@ $(function(){
 		setLeftnavPosition()
 	});
 	//	选项卡
-	$(".resour_con_left_list li a").on("click",function(event){
-		event.preventDefault()
-	})
+//	$(".resour_con_left_list li a").on("click",function(event){
+//		event.preventDefault()
+//	})
 	$(".resour_con_left_list li").on("click",function(e){
 		e.stopPropagation()
 		var index = $(this).index()
